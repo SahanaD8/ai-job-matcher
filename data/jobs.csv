@@ -1,0 +1,13 @@
+id,title,company,location,min_exp,max_exp,skills,description
+1,Python Developer Intern,NovaTech,Bengaluru,0,1,Python;SQL;Git,Work on backend scripts and data cleaning with the engineering team
+2,Junior Java Developer,CodeNest,Bengaluru,0,2,Java;SQL;OOP;DBMS,Build and maintain Java services for an internal inventory system
+3,Full Stack Developer,PixelWorks,Hyderabad,1,3,JavaScript;React.js;Node.js;MongoDB,Develop web apps using React on the front end and Node on the back end
+4,Data Analyst,InsightLabs,Pune,0,2,Python;SQL;Data Science,Analyse business data and build dashboards for the sales team
+5,Machine Learning Engineer,DeepLeaf,Bengaluru,2,5,Python;Machine Learning;Git,Train and deploy machine learning models for recommendation features
+6,Frontend Developer,BrightUI,Mysuru,0,2,HTML;CSS;JavaScript;React.js,Create responsive user interfaces from design mockups
+7,Backend Developer,ServeStack,Hubballi,1,3,Node.js;MySQL;REST API;Git,Design REST APIs and manage MySQL databases for a logistics product
+8,Software Engineer Trainee,TechBridge,Bengaluru,0,1,Java;DSA;OOP,Join a six month training program followed by a role in product engineering
+9,Database Administrator,DataVault,Hyderabad,3,6,SQL;MySQL;DBMS,Manage database performance backups and security for client systems
+10,Remote Python Developer,CloudNimbus,Remote,1,3,Python;REST API;Git;SQL,Build cloud based APIs and automation tools from anywhere
+11,AI Research Intern,NeuralPath,Bengaluru,0,1,Python;Machine Learning;Data Science,Assist researchers with experiments on language models and datasets
+12,Web Developer,SiteCraft,Hubballi,0,2,HTML;CSS;JavaScript;Node.js,Build and maintain websites for small business clients
