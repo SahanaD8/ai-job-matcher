@@ -12,6 +12,8 @@ CITY_ALIASES = {
     "hubli": "Hubballi",
 }
 
+HEADINGS = ["EDUCATION", "SKILLS", "CERTIFICATES", "LANGUAGES", "AWARDS", "PROJECTS"]
+
 def find_location(text):
     best_city = None
     best_pos = None
@@ -36,9 +38,22 @@ def get_resume_summary(text):
         "skills": find_skills(text),
     }
 
+def get_section(text, heading):
+    collected = []
+    inside = False
+    for line in text.split("\n"):
+        stripped = line.strip().upper()
+        if stripped in HEADINGS:
+            inside = (stripped == heading.upper())
+            continue
+        if inside:
+            collected.append(line)
+    return "\n".join(collected)
+
 if __name__ == "__main__":
     from parser import extract_text, clean_text
 
     text = clean_text(extract_text("data/sample_resume.pdf"))
-    summary = get_resume_summary(text)
-    print(summary)
+    projects = get_section(text, "PROJECTS")
+    print("Technologies lines found:", projects.count("Technologies:"))
+    print("Total lines:", len(projects.split("\n")))
